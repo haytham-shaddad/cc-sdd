@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: Initialize a new specification with detailed project description
+tools: ['search/codebase', 'edit/editFiles']
 ---
 <meta>
 description: Initialize a new specification with detailed project description

@@ -120,7 +120,7 @@ export const agentDefinitions = {
   'github-copilot': {
     label: 'GitHub Copilot',
     description:
-      'Installs kiro prompts in `.github/prompts/`, shared settings in `{{KIRO_DIR}}/settings/`, and an AGENTS.md quickstart.',
+      'Installs kiro prompt commands in `.github/prompts/`, a Copilot agent library in `.github/agents/kiro/`, shared settings in `{{KIRO_DIR}}/settings/`, and an AGENTS.md quickstart.',
     aliasFlags: ['--copilot', '--github-copilot'],
     recommendedModels: ['Claude Opus 4.5 or newer', 'gpt-5.2-codex', 'gpt-5.2'],
     layout: {
