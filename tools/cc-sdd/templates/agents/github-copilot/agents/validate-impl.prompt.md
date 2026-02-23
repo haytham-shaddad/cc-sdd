@@ -81,7 +81,7 @@ For each task, verify:
 
 #### Requirements Traceability
 - Identify EARS requirements related to the task
-- Use search to find implementation for evidence of requirement coverage
+- Use search/codebase to find implementation for evidence of requirement coverage
 - If requirement not traceable to code, flag as "Requirement not implemented"
 
 #### Design Alignment
