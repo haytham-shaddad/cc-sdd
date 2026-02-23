@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: Validate implementation against requirements, design, and tasks
+tools: ['search/codebase', 'search', 'runCommands', 'runTests']
 ---
 <meta>
 description: Validate implementation against requirements, design, and tasks

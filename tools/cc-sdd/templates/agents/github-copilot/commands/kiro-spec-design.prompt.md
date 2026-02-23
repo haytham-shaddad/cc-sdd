@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: 'Generate comprehensive technical design for a specification'
+tools: ['search/codebase', 'edit/editFiles', 'search', 'web/fetch']
 ---
 <meta>
 description: Create comprehensive technical design for a specification

@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: Generate implementation tasks for a specification
+tools: ['search/codebase', 'edit/editFiles']
 ---
 <meta>
 description: Generate implementation tasks for a specification

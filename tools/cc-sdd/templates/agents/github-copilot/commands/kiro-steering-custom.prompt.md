@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: Create custom steering documents for specialized project contexts
+tools: ['search/codebase', 'search', 'edit/editFiles']
 ---
 <meta>
 description: Create custom steering documents for specialized project contexts

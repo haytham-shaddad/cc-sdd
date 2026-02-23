@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: Generate comprehensive requirements for a specification
+tools: ['search/codebase', 'edit/editFiles', 'web/fetch']
 ---
 <meta>
 description: Generate comprehensive requirements for a specification

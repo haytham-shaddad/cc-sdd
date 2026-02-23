@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: Analyze implementation gap between requirements and existing codebase
+tools: ['search/codebase', 'search', 'web/fetch', 'edit/editFiles']
 ---
 <meta>
 description: Analyze implementation gap between requirements and existing codebase

@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: Interactive technical design quality review and validation
+tools: ['search/codebase', 'search']
 ---
 <meta>
 description: Interactive technical design quality review and validation

@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: Manage {{KIRO_DIR}}/steering/ as persistent project knowledge
+tools: ['search/codebase', 'search', 'edit/editFiles']
 ---
 <meta>
 description: Manage {{KIRO_DIR}}/steering/ as persistent project knowledge

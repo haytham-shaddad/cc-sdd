@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: 'Execute spec tasks using TDD methodology'
+tools: ['search/codebase', 'edit/editFiles', 'web/fetch', 'runCommands', 'runTests']
 ---
 <meta>
 description: Execute spec tasks using TDD methodology

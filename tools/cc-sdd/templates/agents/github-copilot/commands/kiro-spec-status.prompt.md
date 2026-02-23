@@ -1,6 +1,7 @@
 ---
 agent: 'agent'
 description: Show specification status and progress
+tools: ['search/codebase']
 ---
 <meta>
 description: Show specification status and progress
