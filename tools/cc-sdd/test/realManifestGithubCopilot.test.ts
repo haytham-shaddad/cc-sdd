@@ -52,10 +52,11 @@ describe('real github-copilot manifest', () => {
     expect(out).toMatch(/Plan \(dry-run\)/);
     expect(out).toContain('[templateDir] commands: templates/agents/github-copilot/commands -> .github/prompts');
     expect(out).toContain('[templateFile] doc_main: templates/agents/github-copilot/docs/AGENTS.md -> ./AGENTS.md');
+    expect(out).toContain('[templateDir] agents_library: templates/agents/github-copilot/agents -> .github/agents/kiro');
     expect(out).toContain('[templateDir] settings_common: templates/shared/settings -> .kiro/settings');
   });
 
-  it('apply writes AGENTS.md, prompts, and shared settings', async () => {
+  it('apply writes AGENTS.md, prompts, agent library, and shared settings', async () => {
     const cwd = await mkTmp();
     const ctx = makeIO();
     const code = await runCli(
@@ -74,6 +75,9 @@ describe('real github-copilot manifest', () => {
 
     const prompt = join(cwd, '.github/prompts/kiro-spec-init.prompt.md');
     expect(await exists(prompt)).toBe(true);
+
+    const agent = join(cwd, '.github/agents/kiro/spec-impl.prompt.md');
+    expect(await exists(agent)).toBe(true);
 
     const settingsTemplate = join(cwd, '.kiro/settings/templates/specs/tasks.md');
     expect(await exists(settingsTemplate)).toBe(true);

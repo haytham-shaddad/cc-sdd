@@ -21,6 +21,15 @@
       "when": { "agent": "github-copilot" }
     },
     {
+      "id": "agents_library",
+      "source": {
+        "type": "templateDir",
+        "fromDir": "templates/agents/{{AGENT}}/agents",
+        "toDir": "{{AGENT_DIR}}/agents/kiro"
+      },
+      "when": { "agent": "github-copilot" }
+    },
+    {
       "id": "settings_common",
       "source": {
         "type": "templateDir",
