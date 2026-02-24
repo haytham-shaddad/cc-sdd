@@ -1,5 +1,4 @@
 ---
-agent: 'agent'
 description: 'Execute spec tasks using TDD methodology'
 ---
 <meta>

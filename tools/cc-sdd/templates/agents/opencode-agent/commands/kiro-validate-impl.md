@@ -1,6 +1,5 @@
 ---
 description: Validate implementation against requirements, design, and tasks
-agent: kiro/validate-impl
 subtask: true
 ---
 

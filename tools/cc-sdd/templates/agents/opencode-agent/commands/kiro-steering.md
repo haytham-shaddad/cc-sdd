@@ -1,6 +1,5 @@
 ---
 description: Manage {{KIRO_DIR}}/steering/ as persistent project knowledge
-agent: kiro/steering
 subtask: true
 ---
 

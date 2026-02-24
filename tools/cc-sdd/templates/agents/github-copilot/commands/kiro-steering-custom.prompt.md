@@ -1,5 +1,4 @@
 ---
-agent: 'agent'
 description: Create custom steering documents for specialized project contexts
 ---
 <meta>

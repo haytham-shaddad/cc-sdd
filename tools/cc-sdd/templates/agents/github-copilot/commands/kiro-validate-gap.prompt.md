@@ -1,5 +1,4 @@
 ---
-agent: 'agent'
 description: Analyze implementation gap between requirements and existing codebase
 ---
 <meta>

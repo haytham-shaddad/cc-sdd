@@ -1,5 +1,4 @@
 ---
-agent: 'agent'
 description: Interactive technical design quality review and validation
 ---
 <meta>
