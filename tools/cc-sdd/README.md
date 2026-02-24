@@ -53,6 +53,15 @@ npx cc-sdd@latest --windsurf --lang ja      # Windsurf IDE
 # Note: @next is now reserved for future alpha/beta versions
 ```
 
+## 🧩 Squad AI Team compatibility (Copilot CLI + OpenCode)
+
+For Squad-style team workflows, cc-sdd command templates for **GitHub Copilot** and **OpenCode** are now prompt-first and do not require an explicit `agent:` field in frontmatter.
+
+Latest versions checked on 2026-02-24:
+- GitHub Copilot CLI (`github/copilot-cli`): `v0.0.415` (latest tag)
+- VS Code (`microsoft/vscode`): `1.109.5`
+- OpenCode (`anomalyco/opencode`): `v1.2.10`
+
 ## 🌐 Supported Languages
 
 | Language | Code |  |

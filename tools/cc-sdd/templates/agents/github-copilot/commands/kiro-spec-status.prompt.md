@@ -1,5 +1,4 @@
 ---
-agent: 'agent'
 description: Show specification status and progress
 ---
 <meta>

@@ -1,6 +1,5 @@
 ---
 description: Execute spec tasks using TDD methodology
-agent: kiro/spec-impl
 subtask: true
 ---
 

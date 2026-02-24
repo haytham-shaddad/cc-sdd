@@ -74,6 +74,8 @@ describe('real github-copilot manifest', () => {
 
     const prompt = join(cwd, '.github/prompts/kiro-spec-init.prompt.md');
     expect(await exists(prompt)).toBe(true);
+    const promptText = await readFile(prompt, 'utf8');
+    expect(promptText).not.toMatch(/\nagent:\s*/);
 
     const settingsTemplate = join(cwd, '.kiro/settings/templates/specs/tasks.md');
     expect(await exists(settingsTemplate)).toBe(true);

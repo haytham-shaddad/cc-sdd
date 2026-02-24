@@ -57,6 +57,9 @@ describe('real opencode-agent manifest', () => {
 
     const cmd = join(cwd, '.opencode/commands/kiro-spec-init.md');
     expect(await exists(cmd)).toBe(true);
+    const requirementsCmd = join(cwd, '.opencode/commands/kiro-spec-requirements.md');
+    const requirementsCmdText = await readFile(requirementsCmd, 'utf8');
+    expect(requirementsCmdText).not.toMatch(/\nagent:\s*/);
 
     const agentSpecImpl = join(cwd, '.opencode/agents/kiro/spec-impl.md');
     expect(await exists(agentSpecImpl)).toBe(true);
